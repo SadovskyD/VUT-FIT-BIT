@@ -1,6 +1,6 @@
 # VUT FIT 2020 - NOW
-## První semestr(./1 semester/ "První semestr")
-- [IEL]
+## První semestr
+- [IEL](./1 semester/IEL "IEL")
 - [IUS]
 - [IZP]
 ## Druhý semestr
