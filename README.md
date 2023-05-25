@@ -19,3 +19,6 @@
 ## Pátý semestr
 - [IMP](<./5 semester/IMP/>)
 - [ISA](<./5 semester/ISA/>)
+- [IIS](https://github.com/ktoEtoTakoy/IIS) - Týmový projekt
+- [ITY](https://github.com/ktoEtoTakoy/ITU) - Týmový projekt
+- [IMS](https://github.com/ktoEtoTakoy/IMS) - Týmový projekt
