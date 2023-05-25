@@ -1,5 +1,5 @@
 # VUT FIT 2020 - NOW
-## [První semestr]
+## První semestr
 - [IEL](<./1 semester/IEL/>)
 - [IUS](<./1 semester/IUS/>)
 - [IZP](<./1 semester/IZP/>)
@@ -11,6 +11,7 @@
 - [IAL](<./3 semester/IAL/>)
 - [INP](<./3 semester/INP/>)
 - [ISS](<./3 semester/ISS/>)
+- [IFJ](https://github.com/tkhnv/IFJ_project) - Týmový projekt
 ## Čtvrtý semestr
 - [IDS](<./4 semester/IDS/>)
 - [IPK](<./4 semester/IPK/>)
