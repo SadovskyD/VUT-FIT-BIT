@@ -1,0 +1,130 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[left=2cm,text={17cm,24cm},top=3cm]{geometry}
+\usepackage[bookmarksopen,colorlinks,plainpages=false,urlcolor=blue,unicode,linkcolor=blue]{hyperref}
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{url}
+
+\graphicspath{{.}}
+
+\begin{document}
+
+% #################################################################################################
+% TITLEPAGE
+
+\begin{titlepage}
+    \begin{center}
+        \Huge
+        \textsc{
+            Fakulta informačních technologií\\
+            Vysoké učení technické v~Brně
+        }
+        \vspace{100px}
+        \begin{figure}[!h]
+            \centering
+            \includegraphics[scale=0.3]{img/vutbr-fit-logo.eps}
+        \end{figure}
+        \\[20mm]
+        \huge{
+            \textbf{
+                IMP - Mikroprocesorové a vstavané systémy
+            }
+        }
+        \\[2em]
+        \LARGE{
+            \textbf{
+                Sada demo aplikací nad vestavným OS
+            }
+        }
+        \vfill
+    \end{center}
+        \Large{
+            Dmytro Sadovskyi (xsadov06) \hfill \today
+        }
+
+\end{titlepage}
+
+% #################################################################################################
+% CONTENT
+
+\setlength{\parskip}{0pt}
+\hypersetup{hidelinks}\tableofcontents
+\setlength{\parskip}{0pt}
+
+\newpage %#########################################################################################
+
+\section{Úvod}
+
+    Zadáním projektu bylo se seznámit s principem tvorby vestavných aplikaci na vybraném technickém vybavení
+a vytvořit dva projekty
+    \begin{itemize}
+        \item Jednoduchý (bare-metal) projekt umožňující a demonstrující řízení základních periférií.
+        \item Projekt demonstrující řízení základních periférií, dostupných na daném technickém vybavení, z úrovně úloh OS. Pro obsluhu každé z periférií je nutno využít samostatnou úlohu a v řešení využít komunikační popř. synchronizační službu OS a alespoň jednu službu OS pro práci s časem
+    \end{itemize} 
+
+
+\section{Použité prostředky}
+    
+    \subsection{Hardware}
+
+        \indent Pro tento projekt stačí pouze deska FITkit3 a její periferie. FITkit 3 obsahuje                      mikrokontroler MCU Freescale KINETIS MK60DN512VMD10.
+
+    \subsection{Software}
+
+        \indent Pro implementaci bylo použito vývojové prostředí Kinetis Design Studio verzi 3.2.0.
+                Toto prostředí je z technického hlediska nadstavbou prostředí zvaného Eclipse. Součástí tohoto IDE je nástroj zvaný Processor Expert, pomocí kterého je umožněno rychlé a snadné nastavení jádra MCU i jednotlivých periferií, se kterými vestavná aplikace pracuje. Z tohoto důvodu pro implementaci byl Processor Expert použít.
+
+\section{Implementace}
+    
+    Implementace projektu se nachází v souboru main.c ve složce Sources. Ostatní soubory jsou generovány při vytvoření projektu pomocí KDS další kód generuje Processor Expert.
+
+    \subsection{Bare-metal projekt}
+    V rámci "bare-metal" projektu je obsluha demonstrována pomocí LED9, LED12 a tlačítka SW4. Tento projekt se nachází ve složce xsadov06\_baremetal.\\
+
+    V bare-metal projektu jsou využity následující komponenty Processor Expertů:
+    \begin{itemize}
+        \item Bit1 – BitIO – komponenta, která představuje GPIO pin 5 portu B mikrokontroleru, který je            připojen na LED diodu. Nastaven jako výstupní, počáteční hodnota byla nakofigurovana na log. 1.
+        \item Bit2 – BitIO – komponenta, která představuje GPIO pin 27 portu E mikrokontroleru, který je           připojen na tlačítko. Nastaven jako vstupni.
+        \item Bit3 – BitIO – komponenta, která představuje GPIO pin 2 portu B mikrokontroleru, který je            připojen na LED diodu. Nastaven jako výstupní, počáteční hodnota byla nakofigurovana na log. 1.
+        \item PORTE – komponenta, která představuje port E mikrokontroleru.
+    \end{itemize}
+    Program vestavné aplikace běží v nekonečné smyčce, a funguje tim zpusobem:        
+        \begin{itemize}
+        \item Máme proměnnou led, která je zodpovědná za výběr LED diody, pokud hodnota proměnné je 12 bliká       LED12, pokud hodnota proměnné je 9 bliká LED9.
+        \item Na začátku hodnota proměnné je 12.
+        \item Stisknutím tlačítka SW4 nastavujeme měnime hodnotu proměnné led.
+    \end{itemize}
+    Pro nastavení rychlosti blikání byla vytvořena funkce pause.
+    
+    \subsection{FreeRTOS projekt}
+    V rámci FreeRTOS projektu je obsluha demonstrována stejným způsobem. Tento projekt se nachází ve složce xsadov06\_FreeRTOS.\\
+
+    V FreeRTOS projektu jsou využity následující komponenty Processor Expertu:
+    \begin{itemize}
+        \item Bit1 – BitIO – komponenta, která představuje GPIO pin 5 portu B mikrokontroleru, který je            připojen na LED diodu. Nastaven jako výstupní, počáteční hodnota byla nakofigurovana na log. 1.
+        \item Bit2 – BitIO – komponenta, která představuje GPIO pin 27 portu E mikrokontroleru, který je           připojen na tlačítko. Nastaven jako vstupni.
+        \item Bit3 – BitIO – komponenta, která představuje GPIO pin 2 portu B mikrokontroleru, který je            připojen na LED diodu. Nastaven jako výstupní, počáteční hodnota byla nakofigurovana na log. 1.
+        \item PORTE – komponenta, která představuje port E mikrokontroleru.
+        \item FRTOS1 – FreeRTOS – komponenta, která představuje port operačního systému FreeRTOS
+    \end{itemize}
+    Máme globální proměnnou led, která je zodpovědná za výběr LED diody, a na začátku má hodnotu 12.
+    Pro obsluhu každé periferie je vytvořené samostatné úlohy běžící v nekonečných smyčcích. Pro obsluhu LED diody LED9 je vytvořena funkce ledD9\_task, pokud hodnota proměnné led je 9 bliká LED dioda 9. Pro obsluhu tlačítka SW4 je vytvořena funkce SW4\_task, pokud tlačítko je stisknuté, hodnota led se mění. Obsluha LED12 funguje stejnm způsobem. Při osluze LED diod byl použit semafor k zabránění blikání obou LED diod současně.
+    Pro blikání diody se používá funkce FRTOS1\_vTaskDelay().
+
+\newpage %#########################################################################################
+
+\makeatletter
+\makeatother
+\bibliographystyle{czechiso}
+\nocite{*}
+\begin{flushleft}
+    \bibliography{quotation}
+\end{flushleft}
+
+\end{document} %###################################################################################

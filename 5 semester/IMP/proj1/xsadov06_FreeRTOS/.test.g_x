@@ -1,0 +1,155 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_CompilerCpp_SearchUserPaths</name>
+      <values lines_count="4">
+        <Line>"${ProjDirPath}/Static_Code/PDD"</Line>
+        <Line>"${ProjDirPath}/Static_Code/IO_Map"</Line>
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Compiler_SearchUserPaths</name>
+      <values lines_count="4">
+        <Line>"${ProjDirPath}/Static_Code/PDD"</Line>
+        <Line>"${ProjDirPath}/Static_Code/IO_Map"</Line>
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="Generated_Code/FRTOS1.h" FileDate="2022-12-05, 04:41:32" FileAge="1670211692956" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/FreeRTOS_license.txt" FileDate="2022-12-05, 01:45:17" FileAge="1670201117981" FileType="45637" CompNumb="5" />
+      <File Name="Static_Code/PDD/SAI_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606619" FileType="1048576" />
+      <File Name="Generated_Code/FRTOS1.c" FileDate="2022-12-05, 04:41:32" FileAge="1670211692972" FileType="45637" CompNumb="5" />
+      <File Name="Static_Code/PDD/DMA_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606596" FileType="1048576" />
+      <File Name="Static_Code/PDD/LPTMR_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606607" FileType="1048576" />
+      <File Name="Generated_Code/atomic.h" FileDate="2022-12-05, 01:45:17" FileAge="1670201117983" FileType="45637" CompNumb="5" />
+      <File Name="Static_Code/PDD/SPI_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606623" FileType="1048576" />
+      <File Name="Static_Code/PDD/EWM_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606598" FileType="1048576" />
+      <File Name="Static_Code/PDD/SIM_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606622" FileType="1048576" />
+      <File Name="Static_Code/PDD/ADC_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606587" FileType="1048576" />
+      <File Name="Generated_Code/portmacro.h" FileDate="2022-12-05, 01:45:18" FileAge="1670201118006" FileType="45637" CompNumb="5" />
+      <File Name="Static_Code/PDD/DAC_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606593" FileType="1048576" />
+      <File Name="Static_Code/PDD/FTM_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606604" FileType="1048576" />
+      <File Name="Generated_Code/FreeRTOS.h" FileDate="2022-12-05, 01:45:17" FileAge="1670201117960" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/croutine.h" FileDate="2022-12-05, 01:45:17" FileAge="1670201117954" FileType="45637" CompNumb="5" />
+      <File Name="Static_Code/PDD/CMT_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606590" FileType="1048576" />
+      <File Name="Generated_Code/mpu_prototypes.h" FileDate="2022-12-05, 01:45:18" FileAge="1670201118063" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/croutine.c" FileDate="2022-12-05, 01:45:17" FileAge="1670201117957" FileType="45637" CompNumb="5" />
+      <File Name="Static_Code/PDD/GPIO_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606605" FileType="1048576" />
+      <File Name="Generated_Code/Bit4.h" FileDate="2022-12-05, 03:36:25" FileAge="1670207785799" FileType="45637" CompNumb="16" />
+      <File Name="Project_Settings/Linker_Files/ProcessorExpert.ld" FileDate="2022-12-04, 03:06:46" FileAge="1670119606637" FileType="8" CompNumb="4" />
+      <File Name="Generated_Code/Bit4.c" FileDate="2022-12-05, 03:36:25" FileAge="1670207785767" FileType="45637" CompNumb="16" />
+      <File Name="Generated_Code/port.c" FileDate="2022-12-05, 01:45:17" FileAge="1670201117991" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/Bit3.h" FileDate="2022-12-05, 02:06:32" FileAge="1670202392629" FileType="45637" CompNumb="14" />
+      <File Name="Generated_Code/event_groups.h" FileDate="2022-12-05, 01:45:18" FileAge="1670201118047" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/PE_LDD.h" FileDate="2022-12-05, 03:33:14" FileAge="1670207594647" FileType="45637" CompNumb="4" />
+      <File Name="Documentation/doxygen/RoutingReport_component.txt" FileDate="2022-12-04, 03:06:46" FileAge="1670119606642" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/Bit3.c" FileDate="2022-12-05, 02:06:32" FileAge="1670202392625" FileType="45637" CompNumb="14" />
+      <File Name="Generated_Code/event_groups.c" FileDate="2022-12-05, 01:45:18" FileAge="1670201118045" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/Bit2.h" FileDate="2022-12-05, 02:06:32" FileAge="1670202392637" FileType="45637" CompNumb="12" />
+      <File Name="Generated_Code/PE_LDD.c" FileDate="2022-12-05, 03:33:14" FileAge="1670207594647" FileType="45637" CompNumb="4" />
+      <File Name="Documentation/doxygen/pex.css" FileDate="2022-12-04, 03:06:46" FileAge="1670119606512" FileType="16384" CompNumb="4" />
+      <File Name="Static_Code/PDD/WDOG_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606631" FileType="1048576" />
+      <File Name="Documentation/doxygen/BitIoLdd1_component.txt" FileDate="2022-12-05, 03:36:25" FileAge="1670207785846" FileType="45637" CompNumb="11" />
+      <File Name="Generated_Code/Bit2.c" FileDate="2022-12-05, 02:06:32" FileAge="1670202392634" FileType="45637" CompNumb="12" />
+      <File Name="Static_Code/PDD/PDB_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606613" FileType="1048576" />
+      <File Name="Generated_Code/Bit1.h" FileDate="2022-12-05, 03:36:25" FileAge="1670207785814" FileType="45637" CompNumb="10" />
+      <File Name="Sources/main.c" FileDate="2022-12-05, 05:34:53" FileAge="1670214893980" FileType="128" />
+      <File Name="Generated_Code/Bit1.c" FileDate="2022-12-05, 03:36:25" FileAge="1670207785799" FileType="45637" CompNumb="10" />
+      <File Name="Generated_Code/FreeRTOSConfig.h" FileDate="2022-12-05, 04:41:32" FileAge="1670211692984" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/UTIL1.h" FileDate="2022-12-05, 01:45:18" FileAge="1670201118108" FileType="45637" CompNumb="9" />
+      <File Name="Documentation/doxygen/BitIoLdd3_component.txt" FileDate="2022-12-05, 02:06:32" FileAge="1670202392696" FileType="45637" CompNumb="15" />
+      <File Name="Static_Code/PDD/PIT_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606614" FileType="1048576" />
+      <File Name="Generated_Code/UTIL1config.h" FileDate="2022-12-05, 01:45:18" FileAge="1670201118102" FileType="45637" CompNumb="9" />
+      <File Name="Generated_Code/UTIL1.c" FileDate="2022-12-05, 01:45:18" FileAge="1670201118105" FileType="45637" CompNumb="9" />
+      <File Name="Documentation/test_SIGNALS.txt" FileDate="2022-12-05, 05:40:50" FileAge="1670215250205" FileType="3072" />
+      <File Name="Generated_Code/freertos_tasks_c_additions.h" FileDate="2022-12-05, 01:45:18" FileAge="1670201118057" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/heap_useNewlib.c" FileDate="2022-12-05, 01:45:17" FileAge="1670201117977" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/stack_macros.h" FileDate="2022-12-05, 01:45:18" FileAge="1670201118031" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/stream_buffer.h" FileDate="2022-12-05, 01:45:18" FileAge="1670201118052" FileType="45637" CompNumb="5" />
+      <File Name="Static_Code/PDD/I2C_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606606" FileType="1048576" />
+      <File Name="Generated_Code/PE_Types.h" FileDate="2022-12-05, 03:33:14" FileAge="1670207594631" FileType="45637" />
+      <File Name="Generated_Code/stream_buffer.c" FileDate="2022-12-05, 01:45:18" FileAge="1670201118050" FileType="45637" CompNumb="5" />
+      <File Name="Static_Code/PDD/USBDCD_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606627" FileType="1048576" />
+      <File Name="Static_Code/PDD/MCM_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606610" FileType="1048576" />
+      <File Name="Static_Code/PDD/RTC_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606618" FileType="1048576" />
+      <File Name="Static_Code/IO_Map/MK60D10.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606584" FileType="1048576" CompNumb="4" />
+      <File Name="Static_Code/PDD/MCG_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606608" FileType="1048576" />
+      <File Name="Generated_Code/heap_5.c" FileDate="2022-12-05, 01:45:17" FileAge="1670201117975" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/queue.h" FileDate="2022-12-05, 01:45:18" FileAge="1670201118027" FileType="45637" CompNumb="5" />
+      <File Name="Static_Code/PDD/PDD_Types.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606586" FileType="1048576" CompNumb="4" />
+      <File Name="Static_Code/PDD/ENET_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606597" FileType="1048576" />
+      <File Name="Project_Settings/Startup_Code/startup.c" FileDate="2022-12-04, 03:06:46" FileAge="1670119606465" FileType="16384" CompNumb="4" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2022-12-05, 01:45:17" FileAge="1670201117883" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/portable.h" FileDate="2022-12-05, 01:45:18" FileAge="1670201118001" FileType="45637" CompNumb="5" />
+      <File Name="Static_Code/PDD/CRC_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606592" FileType="1048576" />
+      <File Name="Generated_Code/queue.c" FileDate="2022-12-05, 01:45:18" FileAge="1670201118025" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/heap_4.c" FileDate="2022-12-05, 01:45:17" FileAge="1670201117970" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/tasks.c" FileDate="2022-12-05, 01:45:18" FileAge="1670201118037" FileType="45637" CompNumb="5" />
+      <File Name="Static_Code/PDD/SysTick_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606624" FileType="1048576" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2022-12-05, 05:40:50" FileAge="1670215250173" FileType="45637" CompNumb="4" />
+      <File Name="Documentation/doxygen/test_project.txt" FileDate="2022-12-05, 03:33:14" FileAge="1670207594647" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/heap_3.c" FileDate="2022-12-05, 01:45:17" FileAge="1670201117968" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/portasm.s" FileDate="2022-12-05, 01:45:18" FileAge="1670201118004" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/Vectors.c" FileDate="2022-12-05, 03:33:14" FileAge="1670207594647" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/mpu_wrappers.h" FileDate="2022-12-05, 01:45:18" FileAge="1670201118060" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/MCUC1.h" FileDate="2022-12-05, 01:45:18" FileAge="1670201118115" FileType="45637" CompNumb="7" />
+      <File Name="Static_Code/PDD/OSC_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606611" FileType="1048576" />
+      <File Name="Static_Code/PDD/CAN_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606588" FileType="1048576" />
+      <File Name="Generated_Code/heap_2.c" FileDate="2022-12-05, 01:45:17" FileAge="1670201117967" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/IO_Map.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606648" FileType="45637" />
+      <File Name="Generated_Code/MCUC1.c" FileDate="2022-12-05, 01:45:18" FileAge="1670201118113" FileType="45637" CompNumb="7" />
+      <File Name="Generated_Code/mpu_wrappers.c" FileDate="2022-12-05, 01:45:18" FileAge="1670201118065" FileType="45637" CompNumb="5" />
+      <File Name="Static_Code/PDD/DMAMUX_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606594" FileType="1048576" />
+      <File Name="Static_Code/PDD/SDHC_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606620" FileType="1048576" />
+      <File Name="Generated_Code/projdefs.h" FileDate="2022-12-05, 01:45:18" FileAge="1670201118023" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/heap_1.c" FileDate="2022-12-05, 01:45:17" FileAge="1670201117964" FileType="45637" CompNumb="5" />
+      <File Name="Static_Code/PDD/USB_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606628" FileType="1048576" />
+      <File Name="Static_Code/PDD/FMC_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606600" FileType="1048576" />
+      <File Name="Generated_Code/PE_Const.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606649" FileType="45637" />
+      <File Name="Static_Code/PDD/RNGA_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606616" FileType="1048576" />
+      <File Name="Static_Code/PDD/FTFL_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606602" FileType="1048576" />
+      <File Name="Generated_Code/semphr.h" FileDate="2022-12-05, 01:45:18" FileAge="1670201118029" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/heap_useNewlib.txt" FileDate="2022-12-05, 01:45:17" FileAge="1670201117979" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/readme_gdbBacktraceDebug.txt" FileDate="2022-12-05, 01:45:18" FileAge="1670201118067" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/deprecated_definitions.h" FileDate="2022-12-05, 01:45:18" FileAge="1670201118009" FileType="45637" CompNumb="5" />
+      <File Name="Sources/Events.h" FileDate="2022-12-05, 03:33:14" FileAge="1670207594662" FileType="131328" />
+      <File Name="Generated_Code/list.h" FileDate="2022-12-05, 01:45:17" FileAge="1670201117985" FileType="45637" CompNumb="5" />
+      <File Name="Sources/Events.c" FileDate="2022-12-05, 01:45:18" FileAge="1670201118164" FileType="131328" />
+      <File Name="Documentation/test.txt" FileDate="2022-12-05, 03:33:14" FileAge="1670207594882" FileType="3072" />
+      <File Name="Generated_Code/list.c" FileDate="2022-12-05, 01:45:17" FileAge="1670201117987" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/message_buffer.h" FileDate="2022-12-05, 01:45:18" FileAge="1670201118055" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/portTicks.h" FileDate="2022-12-05, 01:45:17" FileAge="1670201117993" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/task.h" FileDate="2022-12-05, 01:45:18" FileAge="1670201118034" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/.gdbinit-FreeRTOS-helpers" FileDate="2022-12-05, 01:45:18" FileAge="1670201118093" FileType="45637" CompNumb="5" />
+      <File Name="Static_Code/PDD/VREF_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606629" FileType="1048576" />
+      <File Name="Generated_Code/timers.h" FileDate="2022-12-05, 01:45:18" FileAge="1670201118040" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/BitIoLdd4.h" FileDate="2022-12-05, 03:36:25" FileAge="1670207785799" FileType="45637" CompNumb="17" />
+      <File Name="Documentation/doxygen/pex.doxyfile" FileDate="2022-12-04, 03:06:46" FileAge="1670119606640" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/timers.c" FileDate="2022-12-05, 01:45:18" FileAge="1670201118042" FileType="45637" CompNumb="5" />
+      <File Name="Documentation/doxygen/BitIoLdd4_component.txt" FileDate="2022-12-05, 03:36:25" FileAge="1670207785862" FileType="45637" CompNumb="17" />
+      <File Name="Static_Code/PDD/PORT_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606615" FileType="1048576" />
+      <File Name="Generated_Code/BitIoLdd4.c" FileDate="2022-12-05, 03:36:25" FileAge="1670207785862" FileType="45637" CompNumb="17" />
+      <File Name="Generated_Code/BitIoLdd3.h" FileDate="2022-12-05, 02:06:32" FileAge="1670202392688" FileType="45637" CompNumb="15" />
+      <File Name="ProjectInfo.xml" FileDate="2022-12-05, 03:33:14" FileAge="1670207594882" FileType="45637" />
+      <File Name="Documentation/test_Settings.xml" FileDate="2022-12-05, 05:40:50" FileAge="1670215250298" FileType="3072" />
+      <File Name="Generated_Code/BitIoLdd3.c" FileDate="2022-12-05, 02:06:32" FileAge="1670202392692" FileType="45637" CompNumb="15" />
+      <File Name="Generated_Code/BitIoLdd2.h" FileDate="2022-12-05, 02:06:32" FileAge="1670202392676" FileType="45637" CompNumb="13" />
+      <File Name="Documentation/doxygen/BitIoLdd2_component.txt" FileDate="2022-12-05, 02:06:32" FileAge="1670202392683" FileType="45637" CompNumb="13" />
+      <File Name="Generated_Code/BitIoLdd2.c" FileDate="2022-12-05, 02:06:32" FileAge="1670202392679" FileType="45637" CompNumb="13" />
+      <File Name="Static_Code/PDD/CMP_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606589" FileType="1048576" />
+      <File Name="Generated_Code/BitIoLdd1.h" FileDate="2022-12-05, 03:36:25" FileAge="1670207785814" FileType="45637" CompNumb="11" />
+      <File Name="Generated_Code/FRTOS1config.h" FileDate="2022-12-05, 01:45:18" FileAge="1670201118097" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/BitIoLdd1.c" FileDate="2022-12-05, 03:36:25" FileAge="1670207785846" FileType="45637" CompNumb="11" />
+      <File Name="Generated_Code/PE_Error.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606650" FileType="45637" />
+      <File Name="Generated_Code/MCUC1config.h" FileDate="2022-12-05, 01:45:18" FileAge="1670201118111" FileType="45637" CompNumb="7" />
+      <File Name="Static_Code/PDD/UART_PDD.h" FileDate="2022-12-04, 03:06:46" FileAge="1670119606626" FileType="1048576" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>20</CodeGenReference>
+</CodeGenerationInfo>

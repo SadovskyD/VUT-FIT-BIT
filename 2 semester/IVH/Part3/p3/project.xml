@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project outputprefix="proj3">
+
+	<!--  Project description -->
+	<name>IVH proj3 - xsadov06</name>
+	<author>Dmytro Sadovskyi</author>
+	<authoremail>xsadov06@fit.vutbr.cz</authoremail>
+	<revision>20210426</revision>
+	<description>IVH proj3 - xsadov06</description>
+
+	<!--  MCU part -->
+	<mcu>
+		<file>main.c</file>
+	</mcu>
+
+	<!-- FPGA part -->
+	<fpga architecture="gp">
+		<file>top.vhd</file>
+		<file>display.vhd</file>
+	</fpga>
+
+</project>
