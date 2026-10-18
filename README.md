@@ -1,4 +1,4 @@
-# VUT FIT 2020 - NOW
+# VUT FIT 2020 - 2023
 ## První semestr
 - [IEL](<./1 semester/IEL/>)
 - [IUS](<./1 semester/IUS/>)
